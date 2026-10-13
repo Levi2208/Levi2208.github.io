@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Saya</title>
+    <style>
+        /* Gaya Visual (CSS) */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        header p {
+            font-size: 1.2rem;
+            color: #bdc3c7;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        section {
+            background: #fff;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+        .skills-badge {
+            display: inline-block;
+            background: #e8f4fd;
+            color: #3498db;
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            font-weight: bold;
+        }
+        .project-item {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px dashed #ddd;
+        }
+        .project-item:last-child {
+            border-bottom: none;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #3498db;
+            text-decoration: none;
+            font-size: 1.1rem;
+        }
+        .project-title:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Bagian Kepala / Banner -->
+    <header>
+        <h1>Halo, Saya Nama Anda</h1>
+        <p>Web Developer | Designer | Freelancer</p>
+    </header>
+
+    <div class="container">
+        <!-- Bagian Tentang Saya -->
+        <section id="tentang">
+            <h2>Tentang Saya</h2>
+            <p>Tuliskan ringkasan singkat profil Anda di sini. Jelaskan minat Anda, apa yang sedang Anda pelajari, atau masalah apa yang suka Anda selesaikan melalui keahlian Anda.</p>
+        </section>
+
+        <!-- Bagian Keahlian -->
+        <section id="keahlian">
+            <h2>Keahlian</h2>
+            <span class="skills-badge">HTML</span>
+            <span class="skills-badge">CSS</span>
+            <span class="skills-badge">JavaScript</span>
+            <span class="skills-badge">UI/UX Design</span>
+        </section>
+
+        <!-- Bagian Proyek/Portofolio -->
+        <section id="proyek">
+            <h2>Proyek Saya</h2>
+            
+            <!-- Proyek 1 -->
+            <div class="project-item">
+                <a href="#" class="project-title">Nama Proyek Pertama</a>
+                <p>Deskripsi singkat mengenai proyek ini. Dibuat menggunakan teknologi apa saja dan apa tujuan atau hasil dari proyek tersebut.</p>
+            </div>
+
+            <!-- Proyek 2 -->
+            <div class="project-item">
+                <a href="#" class="project-title">Nama Proyek Kedua</a>
+                <p>Deskripsi singkat mengenai proyek kedua Anda. Jelaskan fitur utama atau keunggulan dari karya yang Anda buat ini.</p>
+            </div>
+        </section>
+
+        <!-- Bagian Kontak -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <p>Hubungi saya untuk kolaborasi atau tawaran kerja melalui email di bawah ini:</p>
+            <p style="margin-top: 10px;"><strong>Email:</strong> emailanda@Domain.com</p>
+        </section>
+    </div>
+
+    <!-- Bagian Kaki -->
+    <footer>
+        <p>&copy; 2026 Nama Anda. Dibuat dengan GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
